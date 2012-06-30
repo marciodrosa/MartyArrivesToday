@@ -36,8 +36,44 @@ body {
 	margin-bottom:25px;
 }
 
-.image-box {
+.image-area {
+	margin-top:27px;
 	text-align:center;
 	vertical-align:middle;
-	margin-top:27px;
 }
+
+.image-box {
+	position:relative;
+	box-shadow: 0px 0px 20px #000000;
+	margin-left:0px auto;
+	margin-right:0px auto;
+	display:inline-block;
+}
+
+.image-label {
+	color:#f0f0f0;
+	font-size:18px;
+	font-family:Sans-serif;
+	background-color:rgba(0,0,0,0.67);
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:left;
+	position: absolute; 
+	bottom: 0px; 
+	left: 0; 
+	width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
