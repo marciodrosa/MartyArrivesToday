@@ -18,6 +18,11 @@
    sodipodi:docname="draft.svg">
   <defs
      id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5402"
+       id="pattern5412"
+       patternTransform="translate(-232,543.36218)" />
     <filter
        inkscape:collect="always"
        id="filter3864">
@@ -63,8 +68,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="401.957"
-     inkscape:cy="734.48526"
+     inkscape:cx="208.957"
+     inkscape:cy="537.48526"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -163,7 +168,7 @@
        id="text3804"
        y="690.16882"
        x="21.376831"
-       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f0f0f0;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
          y="690.16882"
          x="21.376831"
@@ -216,11 +221,11 @@
            y="283.36218"
            style="font-size:16px;text-align:justify;text-anchor:start;fill:#e5e5e5;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara3830">Remember Back to the Future Part II? So, Marty McFly goes to the future, and the date is exactly today! Not only the day and year, but the hour and minute too, look:</flowPara></flowRoot>    <rect
-       style="stroke:none;fill:url(#pattern5402)"
+       style="fill:url(#pattern5412);stroke:none"
        width="100"
        height="100"
-       x="-222"
-       y="563.36218"
+       x="-232"
+       y="543.36218"
        id="rect5405" />
     <rect
        style="stroke:none;fill:url(#pattern5407)"
