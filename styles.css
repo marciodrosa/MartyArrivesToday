@@ -5,9 +5,8 @@ body {
 
 .header {
 	background-image:url('images/darknoise.png');
-	color:#e5e5e5;
+	color:#e1e1e1;
 	font-family:Sans-serif;
-	text-shadow: 0px 1px 0px #000000;
 	width: 100%;
 	padding-top:12px;
 	padding-bottom:25px;
@@ -26,7 +25,7 @@ body {
 	margin: 0px auto;
 }
 
-.label {
+.footer {
 	text-align:center;
 	color:#151515;
 	font-size:18px;
@@ -34,6 +33,11 @@ body {
 	text-shadow: 0px 1px 0px #cdcdcd;
 	margin-top:12px;
 	margin-bottom:25px;
+}
+
+.footer img{
+	margin-top:35px;
+	margin-bottom:5px;
 }
 
 .image-area {
@@ -63,17 +67,3 @@ body {
 	left: 0; 
 	width: 100%; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

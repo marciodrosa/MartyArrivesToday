@@ -1,10 +1,11 @@
 
 $(function() {
+
 	$(".image-label").hide();
 	
-	$("img").bind("mouseover", showImageLabel);
-	$("img").bind("click", showImageLabel);
-	$("img").bind("mouseleave", hideImageLabel);
+	$(".image-box img").bind("mouseover", showImageLabel);
+	$(".image-box img").bind("click", showImageLabel);
+	$(".image-box img").bind("mouseleave", hideImageLabel);
 	
 	updateDateAndTime();
 	
