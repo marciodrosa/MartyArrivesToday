@@ -5,7 +5,7 @@ $(function() {
 	
 	$(".image-box img").bind("mouseover", showImageLabel);
 	$(".image-box img").bind("click", showImageLabel);
-	$(".image-box img").bind("mouseleave", hideImageLabel);
+	$(".image-box img").bind("mouseout", hideImageLabel);
 	
 	updateDateAndTime();
 	
