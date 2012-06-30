@@ -1,0 +1,43 @@
+body {
+	background-image:url('images/lightnoise.png');
+	margin:0px;
+}
+
+.header {
+	background-image:url('images/darknoise.png');
+	color:#e5e5e5;
+	font-family:Sans-serif;
+	text-shadow: 0px 1px 0px #000000;
+	width: 100%;
+	padding-top:12px;
+	padding-bottom:25px;
+}
+
+.header-title {
+	font-size:28px;
+	text-align:center;
+	margin-bottom:12px;
+}
+
+.header-description {
+	font-size:16px;
+	max-width:700px;
+	vertical-align:center;
+	margin: 0px auto;
+}
+
+.label {
+	text-align:center;
+	color:#151515;
+	font-size:18px;
+	font-family:Sans-serif;
+	text-shadow: 0px 1px 0px #cdcdcd;
+	margin-top:12px;
+	margin-bottom:25px;
+}
+
+.image-box {
+	text-align:center;
+	vertical-align:middle;
+	margin-top:27px;
+}
