@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="820"
+   height="461"
+   id="svg8719"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="positiontest.svg">
+  <defs
+     id="defs8721" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="393.48552"
+     inkscape:cy="288.14536"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8724">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="bg"
+     sodipodi:insensitive="true">
+    <image
+       transform="translate(452.85715,55.280674)"
+       y="-55.280674"
+       x="-452.85715"
+       id="image8735"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/console.png"
+       height="461"
+       width="820" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(452.85715,55.280674)">
+    <image
+       y="-7.7806702"
+       x="-381.85715"
+       id="image8750"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/jun.png"
+       height="67"
+       width="146" />
+    <image
+       y="-10.28067"
+       x="-67.857162"
+       id="image8761"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/0.png"
+       height="66"
+       width="42" />
+    <image
+       y="-8.2806702"
+       x="-177.85718"
+       id="image8772"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/1.png"
+       height="66"
+       width="42" />
+    <image
+       y="-8.2806702"
+       x="-216.85715"
+       id="image8783"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/2.png"
+       height="66"
+       width="42" />
+    <image
+       y="-12.28067"
+       x="206.14285"
+       id="image8816"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/5.png"
+       height="66"
+       width="42" />
+    <image
+       y="-12.28067"
+       x="139.14285"
+       id="image8849"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/8.png"
+       height="66"
+       width="42" />
+    <image
+       y="-12.28067"
+       x="248.14285"
+       id="image8860"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/9.png"
+       height="66"
+       width="42" />
+    <image
+       width="42"
+       height="66"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/2.png"
+       id="image8865"
+       x="-108.85715"
+       y="-10.28067" />
+    <image
+       y="-11.28067"
+       x="14.142849"
+       id="image8867"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/2.png"
+       height="66"
+       width="42" />
+    <image
+       width="42"
+       height="66"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/1.png"
+       id="image8869"
+       x="-26.85714"
+       y="-10.28067" />
+    <image
+       width="42"
+       height="66"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/0.png"
+       id="image8871"
+       x="99.142838"
+       y="-12.28067" />
+    <image
+       y="-3.7806702"
+       x="61.892853"
+       id="image8881"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/dot.png"
+       height="21"
+       width="25" />
+    <image
+       width="25"
+       height="21"
+       xlink:href="file:///C:/Projects/MartyArrivesToday/images/dot.png"
+       id="image8884"
+       x="61.892853"
+       y="30.96933" />
+  </g>
+</svg>
