@@ -1,14 +1,12 @@
-
 $(function() {
 
-	$(".image-label").hide();
-	
-	$(".image-box")
-	  .on("mouseenter", function() {
-		  $(this).find(".image-label").fadeIn('fast');
+  $('.image-label').hide();
+	$('.image-box')
+	  .on('mouseenter', function() {
+		  $(this).find('.image-label').fadeIn('fast');
 	  })
-	  .on("mouseleave", function() {
-		  $(this).find(".image-label").fadeOut('fast');
+	  .on('mouseleave', function() {
+		  $(this).find('.image-label').fadeOut('fast');
 	});
 	
 	updateDateAndTime();
