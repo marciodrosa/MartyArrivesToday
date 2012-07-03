@@ -11,7 +11,9 @@
 		var hour = currentDate.getHours();
 		if (hour >= 12) {
 			addImageToPosition('images/dot.png', 514, 353);
-			hour -= 12;
+			if (hour >= 13) {
+				hour -= 12;
+			}
 		} else {
 			addImageToPosition('images/dot.png', 514, 388);
 		}
