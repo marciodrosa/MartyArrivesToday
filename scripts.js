@@ -3,20 +3,16 @@ $(function() {
 
 	$(".image-label").hide();
 	
-	$(".image-box img").bind("mouseover", showImageLabel);
-	$(".image-box img").bind("click", showImageLabel);
-	$(".image-box img").bind("mouseout", hideImageLabel);
+	$(".image-box")
+	  .on("mouseenter", function() {
+		  $(this).find(".image-label").fadeIn('fast');
+	  })
+	  .on("mouseleave", function() {
+		  $(this).find(".image-label").fadeOut('fast');
+	});
 	
 	updateDateAndTime();
-	
-	function showImageLabel() {
-		$(".image-label").fadeIn('fast');
-	}
-	
-	function hideImageLabel() {
-		$(".image-label").fadeOut('fast');
-	}
-	
+
 	/**
 	Add the fake date to the console image.
 	*/
