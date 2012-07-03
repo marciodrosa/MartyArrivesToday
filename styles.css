@@ -3,6 +3,10 @@ body {
 	margin:0px;
 }
 
+img {
+  border:0;
+}
+
 .header {
 	background-image:url('images/darknoise.png');
 	color:#e1e1e1;

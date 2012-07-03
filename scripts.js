@@ -1,22 +1,4 @@
-
-$(function() {
-
-	$(".image-label").hide();
-	
-	$(".image-box img").bind("mouseover", showImageLabel);
-	$(".image-box img").bind("click", showImageLabel);
-	$(".image-box img").bind("mouseout", hideImageLabel);
-	
-	updateDateAndTime();
-	
-	function showImageLabel() {
-		$(".image-label").fadeIn('fast');
-	}
-	
-	function hideImageLabel() {
-		$(".image-label").fadeOut('fast');
-	}
-	
+(function() {
 	/**
 	Add the fake date to the console image.
 	*/
@@ -28,11 +10,10 @@ $(function() {
 		var minute = numberToStringWithAlgarisms(currentDate.getMinutes());
 		var hour = currentDate.getHours();
 		if (hour >= 12) {
-			addImageToPosition("images/dot.png", 514, 353);
+			addImageToPosition('images/dot.png', 514, 353);
 			hour -= 12;
-		}
-		else {
-			addImageToPosition("images/dot.png", 514, 388);
+		} else {
+			addImageToPosition('images/dot.png', 514, 388);
 		}
 		hour = numberToStringWithAlgarisms(hour);
 		addImageToPosition(getMonthImageSrc(month), 71, 346);
@@ -54,7 +35,7 @@ $(function() {
 	function numberToStringWithAlgarisms(originalNumber) {
 		var numberAsString = originalNumber.toString();
 		if (numberAsString.length == 1) {
-			return "0" + numberAsString;
+			return '0' + numberAsString;
 		}
 		else {
 			return numberAsString;
@@ -65,7 +46,7 @@ $(function() {
 	Returns the name of the image source of the algarism (0-9).
 	*/
 	function getAlgarismImageSrc(algarism) {
-		return "images/" + algarism + ".png";
+		return 'images/' + algarism + '.png';
 	}
 	
 	/**
@@ -74,29 +55,29 @@ $(function() {
 	function getMonthImageSrc(month) {
 		switch (month) {
 			case 0:
-				return "images/jan.png";
+				return 'images/jan.png';
 			case 1:
-				return "images/feb.png";
+				return 'images/feb.png';
 			case 2:
-				return "images/mar.png";
+				return 'images/mar.png';
 			case 3:
-				return "images/apr.png";
+				return 'images/apr.png';
 			case 4:
-				return "images/may.png";
+				return 'images/may.png';
 			case 5:
-				return "images/jun.png";
+				return 'images/jun.png';
 			case 6:
-				return "images/jul.png";
+				return 'images/jul.png';
 			case 7:
-				return "images/aug.png";
+				return 'images/aug.png';
 			case 8:
-				return "images/sep.png";
+				return 'images/sep.png';
 			case 9:
-				return "images/oct.png";
+				return 'images/oct.png';
 			case 10:
-				return "images/nov.png";
+				return 'images/nov.png';
 			case 11:
-				return "images/dec.png";
+				return 'images/dec.png';
 		}
 	}
 	
@@ -104,7 +85,24 @@ $(function() {
 	Creates a dom element with the image source and append to the image box.
 	*/
 	function addImageToPosition(imageSrc, x, y) {
-		var imageDom = $("<img/>").attr("src", imageSrc).css("position", "absolute").css("left", x).css("bottom", y);
-		$(".image-box").append(imageDom);
+		$('<img/>').attr('src', imageSrc).css({
+		  'position': 'absolute',
+		  'left': x,
+		  'bottom': y
+		}).appendTo('.image-box');
 	}
+	
+	updateDateAndTime();
+})();
+
+$(window).load(function() {
+  $('.image-label').hide();
+  $('.image-area').show();
+	$('.image-box')
+	  .on('mouseenter', function() {
+		  $(this).find('.image-label').fadeIn('fast');
+	  })
+	  .on('mouseleave', function() {
+		  $(this).find('.image-label').fadeOut('fast');
+	});
 });
