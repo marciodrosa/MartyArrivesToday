@@ -53,6 +53,7 @@ img {
 
 .image-box {
 	position:relative;
+	height:461px;
 	box-shadow: 0px 0px 20px #000000;
 	margin-left:0px auto;
 	margin-right:0px auto;
