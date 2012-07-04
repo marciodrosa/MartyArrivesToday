@@ -108,7 +108,7 @@ $(window).load(function() {
 		  $(this).find('.image-label').fadeOut('fast');
 	  });
 
-	$('img').on('mousedown', function(e) {
+	$('img').on('mousedown contextmenu', function(e) {
     e.preventDefault();
 	});
 });
