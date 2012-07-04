@@ -107,4 +107,8 @@ $(window).load(function() {
 	  .on('mouseleave', function() {
 		  $(this).find('.image-label').fadeOut('fast');
 	  });
+
+	$('img').on('mousedown', function(e) {
+    e.preventDefault();
+	});
 });

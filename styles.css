@@ -72,3 +72,7 @@ img {
 	left: 0; 
 	width: 100%; 
 }
+
+.image-label span {
+  padding-left:15px;
+}
